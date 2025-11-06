@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/Up2date Autotech.html" }
+  ]
+}
