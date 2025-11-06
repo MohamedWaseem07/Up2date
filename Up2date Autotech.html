@@ -1,234 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Up2Date AutoTech | Automotive Scanning & Services</title>
-    <meta name="description" content="Up2Date AutoTech - Expert in automobile scanning, ECM services, key programming, airbag ECU reset, and online coding in Erode. Drive with confidence!">
-    <meta name="keywords" content="Up2Date AutoTech, Auto Scanning Erode, ECM Service Erode, Car Key Programming, Airbag ECU Reset, Online Vehicle Coding, Car Diagnosis Erode">
-    <meta name="author" content="Up2Date AutoTech">
-    <meta name="description" content="Up2Date AutoTech in Erode offers expert automobile scanning, ECM service, key programming, and airbag ECU reset. Trusted diagnostics to keep your car up to date.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Up2Date AutoTech | Automotive Scanning & Services</title>
+  <meta name="description" content="Up2Date AutoTech in Erode offers expert automobile scanning, ECM service, key programming, and airbag ECU reset. Trusted diagnostics to keep your car up to date.">
+  <meta name="keywords" content="Up2Date AutoTech, Auto Scanning Erode, ECM Service Erode, Car Key Programming, Airbag ECU Reset, Online Vehicle Coding, Car Diagnosis Erode">
+  <meta name="author" content="Up2Date AutoTech">
+  <meta name="theme-color" content="#000000">
 
-    <link rel="icon" href="favicon.png?v=2" type="image/png">
-    <link rel="apple-touch-icon" href="favicon.png?v=2">
-    <meta name="theme-color" content="#000000">
-    
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png?v=2" type="image/png">
+  <link rel="apple-touch-icon" href="favicon.png?v=2">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Open Graph (for social media) -->
+  <meta property="og:title" content="Up2Date AutoTech | Automotive Scanning & Services">
+  <meta property="og:description" content="Expert automobile scanning, ECM service, key programming, and airbag ECU reset in Erode. Drive with confidence!">
+  <meta property="og:image" content="https://up2dateautotech-nu.vercel.app/favicon.png">
+  <meta property="og:url" content="https://up2dateautotech-nu.vercel.app/">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #0f0f0f;
-            color: #f4f4f4;
-            overflow-x: hidden;
-        }
+        /* ---------- Global Styles ---------- */
+     body {
+     font-family: 'Roboto', sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #0f0f0f;
+     color: #f4f4f4;
+     overflow-x: hidden;
+     line-height: 1.6;
+     }
 
-        /* Hero Section with Static Logo Background */
-        .hero-section {
-            position: relative;
-            height: 400px;
-            background: url('logo.PNG') no-repeat center top;
-            background-size: contain; /* or use 'cover' if you want it to fill the entire width */
-            background-color: #0f0f0f;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            text-align: center;
-            padding-bottom: 30px;
-        }
+     h1, h2, h3 {
+     font-family: 'Poppins', sans-serif;
+     color: #ffcb05;
+     margin-bottom: 1rem;
+     }
 
-        .hero-section .overlay {
-            background-color: rgba(0, 0, 0, 0.25);
-            padding: 40px;
-            border-radius: 10px;
-            color: #ffcb05;
-        }
+     p, li, a {
+     font-family: 'Roboto', sans-serif;
+     }
 
-        .hero-section h1 {
-            font-size: 2.8rem;
-            margin-bottom: 10px;
-        }
+     /* ---------- Hero Section ---------- */
+     .hero-section {
+     position: relative;
+     height: 400px;
+     background: url('favicon.PNG') no-repeat center top;
+     background-size: contain;
+     background-color: #0f0f0f;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     text-align: center;
+     padding-bottom: 30px;
+     }
 
-        .hero-section p {
-            font-size: 1.2rem;
-            color: #f4f4f4;
-        }
+     .hero-section .overlay {
+     background-color: rgba(0, 0, 0, 0.25);
+     padding: 40px;
+     border-radius: 10px;
+     color: #ffcb05;
+     }
 
-        header {
-            background: linear-gradient(135deg, #111, #202020);
-            color: #ffcb05;
-            text-align: center;
-            padding: 3rem 1rem;
-        }
+     .hero-section h1 {
+     font-size: 2.8rem;
+     margin-bottom: 10px;
+     font-weight: 700;
+     }
 
-        header h1 {
-            margin: 0;
-            font-size: 2.8rem;
-            letter-spacing: 1.5px;
-        }
+     .hero-section p {
+     font-size: 1.15rem;
+     color: #eaeaea;
+     }
 
-        header p {
-            margin-top: 0.5rem;
-            color: #cccccc;
-            font-size: 1.1rem;
-        }
+     /* ---------- Sections ---------- */
+     section {
+     padding: 3rem 10%;
+     text-align: center;
+     }
 
-        section {
-            padding: 3rem 10%;
-            text-align: center;
-        }
+     h2 {
+     font-size: 2rem;
+     font-weight: 600;
+     }
 
-        h2 {
-            color: #ffcb05;
-            margin-bottom: 1rem;
-            font-size: 2rem;
-        }
+      /* ---------- Services Section ---------- */
+     .services {
+     background-color: #1a1a1a;
+     border-radius: 10px;
+     padding: 2rem;
+     box-shadow: 0 0 15px rgba(255, 203, 5, 0.15);
+     }
 
-        .services {
-            background-color: #1a1a1a;
-            border-radius: 10px;
-            padding: 2rem;
-            box-shadow: 0 0 15px rgba(255, 203, 5, 0.15);
-        }
+     .services p {
+     color: #ccc;
+     font-size: 1.05rem;
+     }
 
-        .services ul {
-            list-style: none;
-            padding: 0;
-            margin-top: 1rem;
-            font-size: 1.1rem;
-            color: #ddd;
-        }
+     .services ul {
+     list-style: none;
+     padding: 0;
+     margin-top: 1rem;
+     }
 
-        .services li {
-            margin: 0.8rem 0;
-            padding: 0.5rem;
-            border-bottom: 1px solid #333;
-        }
+     .services li {
+     background: #141414;
+     margin: 0.8rem 0;
+     padding: 0.8rem 1rem;
+     border-left: 4px solid #ffcb05;
+     border-radius: 6px;
+     font-size: 1.05rem;
+     transition: background 0.3s ease; 
+     }
 
-        .highlights {
-            background-color: #151515;
-            border-left: 4px solid #ffcb05;
-            margin-top: 2rem;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(255, 203, 5, 0.15);
-        }
+     .services li:hover {
+     background: #222;
+     }
 
-        .highlights ul {
-            text-align: left;
-            list-style: none;
-            padding-left: 1rem;
-        }
+     /* ---------- Highlights ---------- */
+     .highlights {
+     background-color: #151515;
+     border-left: 4px solid #ffcb05;
+     margin-top: 2rem;
+     padding: 1.5rem;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(255, 203, 5, 0.15);
+     }
 
-        .highlights li::before {
-            content: '✔';
-            color: #ffcb05;
-            margin-right: 8px;
-        }
+.highlights ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 1rem;
+}
 
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-            margin-top: 2rem;
-            justify-items: center;
-        }
+.highlights li {
+  margin: 0.6rem 0;
+  font-size: 1.05rem;
+}
 
-        .gallery img {
-            width: 100%;
-            max-width: 380px;
-            height: 260px;
-            object-fit: cover;
-            border-radius: 10px;
-            transition: transform 0.4s ease, box-shadow 0.4s ease;
-        }
+.highlights li::before {
+  content: '✔';
+  color: #ffcb05;
+  margin-right: 8px;
+}
 
-        .gallery img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 25px rgba(255, 203, 5, 0.4);
-        }
+/* ---------- Gallery ---------- */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 2rem;
+}
 
-        .instagram {
-            margin-top: 3rem;
-        }
+.gallery img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
 
-        .instagram a {
-            display: inline-block;
-            background-color: #ffcb05;
-            color: #000;
-            padding: 0.8rem 1.5rem;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: 0.3s ease;
-        }
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 203, 5, 0.4);
+}
 
-        .instagram a:hover {
-            background-color: #ffd84d;
-            transform: scale(1.05);
-        }
+/* ---------- Instagram Section ---------- */
+.instagram a {
+  display: inline-block;
+  background-color: #ffcb05;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
 
-        .contact {
-            background: #1a1a1a;
-            padding: 2.5rem 10%;
-            border-top: 1px solid #333;
-        }
+.instagram a:hover {
+  background-color: #ffd84d;
+  transform: scale(1.05);
+}
 
-        .contact p, .contact a {
-            color: #ddd;
-            font-size: 1.1rem;
-        }
+/* ---------- Contact Section ---------- */
+.contact {
+  background: #1a1a1a;
+  padding: 2.5rem 10%;
+  border-top: 1px solid #333;
+}
 
-        .contact a {
-            color: #ffcb05;
-            text-decoration: none;
-        }
+.contact p, .contact a {
+  color: #ddd;
+  font-size: 1.1rem;
+}
 
-        footer {
-            background-color: #0b0b0b;
-            text-align: center;
-            padding: 1rem;
-            color: #888;
-            font-size: 0.9rem;
-        }
+.contact a {
+  color: #ffcb05;
+  text-decoration: none;
+}
 
-        .whatsapp-float {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 20px;
-            right: 20px;
-            background-color: #25d366;
-            color: #fff;
-            border-radius: 50px;
-            text-align: center;
-            font-size: 30px;
-            box-shadow: 2px 2px 3px #999;
-            z-index: 100;
-            transition: 0.3s ease;
-        }
+/* ---------- WhatsApp Button ---------- */
+.whatsapp-float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
 
-        .whatsapp-float:hover {
-            transform: scale(1.1);
-        }
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
 
-        @media (max-width: 768px) {
-            .hero-section {
-                height: 300px;
-                background-size: cover;
-            }
-            header h1 {
-                font-size: 2.2rem;
-            }
-            section {
-                padding: 2rem 5%;
-            }
-            .gallery img {
-                height: 220px;
-            }
-        }
+/* ---------- Footer ---------- */
+footer {
+  background-color: #0b0b0b;
+  text-align: center;
+  padding: 1rem;
+  color: #888;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 300px;
+    background-size: cover;
+  }
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  section {
+    padding: 2rem 5%;
+  }
+  .gallery img {
+    height: 200px;
+  }
+}
     </style>
-    <meta name="google-site-verification" content="4sJO9krAoa4t-BJhXkDCgnfgpTDPn3Pkb1kTucdq3QU" />
 </head>
 <body>
 
@@ -244,13 +263,15 @@
     <section class="services">
         <h2>Our Services</h2>
         <p>Comprehensive diagnostics and automotive electronic solutions</p>
+
+
         <ul>
-            <li>Automobile Scanning & Diagnosis – detailed diagnostics for all car models</li>
-            <li>ECM Service & Sales – repair, replacement, and programming of ECMs</li>
-            <li>Transponder Keys – key programming and duplication</li>
-            <li>Meter Service & Sales – speedometer and odometer services</li>
-            <li>Airbag ECU Reset – restoring airbag systems to factory settings</li>
-            <li>Online Coding – remote coding and programming for vehicles</li>
+            <li>Automobile Scanning & Diagnosis – Detailed diagnostics for all car models</li>
+            <li>ECM Service & Sales – Repair, replacement, and programming of ECMs</li>
+            <li>Transponder Keys – Key programming and duplication</li>
+            <li>Meter Service & Sales – Speedometer and odometer services</li>
+            <li>Airbag ECU Reset – Restoring airbag systems to factory settings</li>
+            <li>Online Coding – Remote coding and programming for vehicles</li>
         </ul>
 
         <div class="highlights">
@@ -293,16 +314,18 @@
     </section>
 
     <section class="contact">
-        <h2>Contact Us</h2>
-        <p>📞 +91 97913 33975</p>
-        <p>
-            <a href="https://www.instagram.com/up2date_autotech_erode/" target="_blank" style="text-decoration:none; color:#ffcb05;">
+    <h2>Contact Us</h2>
+    <p>📞 +91 97913 33975</p>
+
+    <p>
+      <a href="https://www.instagram.com/up2date_autotech_erode/" target="_blank" style="text-decoration:none; color:#ffcb05;">
     <img src="instagram.png" alt="Instagram" style="width:24px; height:24px; vertical-align:middle; margin-right:6px;">
     @up2date_autotech_erode
-            </a>
-        </p>
-        <p>📍 Veerappampalayam Byepass, Sivagami Sengotaya Mahal Backside, Erode 638001</p>
+      </a>
+    </p>
 
+    <p>📍 Veerappampalayam Byepass, Sivagami Sengotaya Mahal Backside, Erode 638001</p>
+    
         <!-- Google Map Embed -->
         <iframe 
             src="https://www.google.com/maps?q=Up2Date+AutoTech+Erode&output=embed" 
@@ -312,7 +335,7 @@
     </section>
 
     <a href="https://wa.me/919791333975" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
-        💬
+     <i class="fa-brands fa-whatsapp" style="font-size:40px; color:#25D366;"></i>
     </a>
 
     <footer>
@@ -321,10 +344,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
